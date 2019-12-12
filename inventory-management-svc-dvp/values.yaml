@@ -3,7 +3,7 @@ global:
   tlsSecretName: mooc-four-rhos-cluster
 
 inventory-management-svc-dvp:
-  replicaCount: 4
+  replicaCount: 3
   
   ingress:
     enabled: true
