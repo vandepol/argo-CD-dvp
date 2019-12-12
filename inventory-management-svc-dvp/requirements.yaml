@@ -1,0 +1,4 @@
+dependencies:
+- name: inventory-management-svc-dvp
+  version: 1.0.0-1
+  repository: http://artifactory.mooc-four-rhos-cluster.sjc04.containers.appdomain.cloud/artifactory/generic-local/mooc-team-four/
