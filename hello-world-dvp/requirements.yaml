@@ -1,0 +1,4 @@
+dependencies:
+- name: hello-world-dvp
+  version: 1.0.0-<build tag version>
+  repository: <artifactory helm repository location>

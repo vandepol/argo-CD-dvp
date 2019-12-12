@@ -1,0 +1,10 @@
+global:
+  ingressSubdomain: mooc-four-rhos-cluster.sjc04.containers.appdomain.cloud
+  tlsSecretName: mooc-four-rhos-cluster
+
+inventory-management-bff-dvp:
+  replicaCount: 3
+  
+  ingress:
+    enabled: true
+    tlsSecretName: mooc-four-rhos-cluster
